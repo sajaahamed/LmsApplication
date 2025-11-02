@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.lmsapplication"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.lmsapplication"
@@ -39,6 +39,7 @@ dependencies {
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
+    implementation("com.google.android.material:material:1.12.0")
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
